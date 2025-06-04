@@ -1,0 +1,38 @@
+Book {
+  title: 'JavaScript Mastery',
+  author: 'John Doe',
+  isbn: '123456',
+  isAvailable: true
+}
+JavaScript Mastery has been borrowed.
+Book {
+  title: 'JavaScript Mastery',
+  author: 'John Doe',
+  isbn: '123456',
+  isAvailable: false
+}
+JavaScript Mastery has been returned.
+Book {
+  title: 'JavaScript Mastery',
+  author: 'John Doe',
+  isbn: '123456',
+  isAvailable: true
+}
+User { name: 'Chethan', id: 101, borrowedBooks: [] }
+MERN Stack Essentials has been borrowed.
+Chethan borrowed "MERN Stack Essentials".
+User {
+  name: 'Chethan',
+  id: 101,
+  borrowedBooks: [
+    Book {
+      title: 'MERN Stack Essentials',
+      author: 'Jane Doe',
+      isbn: '789012',
+      isAvailable: false
+    }
+  ]
+}
+MERN Stack Essentials has been returned.
+Chethan returned "MERN Stack Essentials".
+User { name: 'Chethan', id: 101, borrowedBooks: [] }
