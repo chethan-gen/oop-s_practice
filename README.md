@@ -1,25 +1,15 @@
-# oop-s_practice
-# Library Management System
+# Inventory Management System
 
-## Overview
-This project simulates a simple **Library Management System** using JavaScript classes. It allows users to **borrow** and **return** books while maintaining the availability of books.
+## Description
+This project implements an Inventory Management System using JavaScript. It defines two classes:
+- **Product**: Represents individual products with properties for name, ID, price, and stock count.
+- **Inventory**: Manages an array of products and allows stock management operations.
 
 ## Features
-✅ Define `Book` and `User` classes with essential properties and methods.  
-✅ Implement borrowing and returning functionalities.  
-✅ Ensure availability status updates dynamically.  
-✅ Log transactions for verification.  
+- Add new products to inventory.
+- Manage stock levels.
+- Sell products and update inventory dynamically.
+- Check available stock of a product.
 
-## How to Use
-1. Create instances of `Book` and `User`.
-2. Users can borrow books if available.
-3. Users can return borrowed books.
-4. Console logs will display actions.
-
-## Example Usage
-```javascript
-const book1 = new Book("JavaScript Mastery", "John Doe", "123456");
-const user1 = new User("Chethan", 101);
-
-user1.borrow(book1);
-user1.return(book1);
+## Expected Output
+Example output when running `inventory.js`:
